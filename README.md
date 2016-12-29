@@ -16,19 +16,19 @@ And then execute:
 
     $ bundle
 
-Then write following `config.ru`
+Then execute:
+
+    $ bundle exec whois-api-server
+
+Enjoy it!
+
+(Of course you can setup web app with your own `config.ru` like:)
 
 ```ruby
 require "whois/api"
 
 run Whois::Api.new
 ```
-
-And then execute:
-
-    $ bundle exec rackup
-
-Enjoy it!
 
 ## Contributing
 

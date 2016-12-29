@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
     Rakefile
     bin/console
     bin/setup
+    exe/whois-api-server
     lib/whois-api.rb
     lib/whois/api.rb
     lib/whois/api/version.rb
