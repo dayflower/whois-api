@@ -1,0 +1,6 @@
+{
+  "name": "whois-api",
+  "description": "whois JSON API",
+  "keywords": [ "whois", "api" ],
+  "repository": "https://github.com/dayflower/whois-api/tree/app"
+}
