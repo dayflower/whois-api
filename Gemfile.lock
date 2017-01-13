@@ -1,0 +1,45 @@
+GIT
+  remote: https://github.com/dayflower/whois-api.git
+  revision: 2b1139c52822e7e7775d932c3305699843cc4a0d
+  specs:
+    whois-api (0.1.0)
+      rack
+      whois-hash
+
+GIT
+  remote: https://github.com/dayflower/whois-hash.git
+  revision: 56f35d3bf74ebb827e6cf3171d1bca1234256336
+  specs:
+    whois-hash (0.1.0)
+      whois (~> 4.0)
+      whois-parser (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    concurrent-ruby (1.0.4)
+    i18n (0.7.0)
+    minitest (5.10.1)
+    rack (2.0.1)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    whois (4.0.1)
+    whois-parser (1.0.0)
+      activesupport (>= 4)
+      whois (>= 4.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  whois-api!
+  whois-hash!
+
+BUNDLED WITH
+   1.13.6
